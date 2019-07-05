@@ -1,0 +1,163 @@
+body{
+    background-color:#E8E8E8;
+    padding-top: 15px;
+}
+#header{
+    width: 95%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #CFCFCF;
+    margin: auto;
+    box-shadow: 5px 5px 5px 5px rgba(54, 54, 54, 0.8);
+}
+#header .logo{
+    width: 20%;
+    height: 60px;
+    float: left;
+}
+#header .menu{
+    width: 55%;
+    height: 60px;
+    float: left;
+}
+#header .menu ul {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0;
+    overflow: hidden;
+  } 
+li{
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+#header .login{
+    width: 25%;
+    height: 60px;
+    float: right;
+    background-color: #CFCFCF;
+}
+#header .login .dangnhap{
+    width: 90px; 
+    height: 30px;
+    float: left;
+    margin: 20px 0px;
+    margin-right:20px;
+    border-radius: 15px;
+    border: 3px solid #6d6d6d;
+    background-color:#E8E8E8;
+}
+#header .login .dangnhap:hover{
+    width: 90px; 
+    height: 30px;
+    float: left;
+    margin: 20px 0px;
+    margin-right:20px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 3px #a3a2a2(0,0,0,0.8);
+    background-color:rgb(253, 253, 253);
+}
+#header .login .dangnhap > a{
+    color: #000;
+    text-decoration: none;
+}
+#header .login .dangky{
+    width: 90px; 
+    height: 30px;
+    float: left;
+    margin: 20px 0px;
+    margin-right:20px;
+    border-radius: 15px;
+    border: 3px solid #6d6d6d;
+    background-color:#E8E8E8;
+}
+#header .login .dangky:hover{
+    width: 90px; 
+    height: 30px;
+    float: left;
+    margin: 20px 0px;
+    margin-right:20px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 3px #a3a2a2(0,0,0,0.8);
+    background-color:rgb(253, 253, 253);
+}
+#header .login .dangky > a{
+    color: #000;
+    text-decoration: none;
+}
+#content{
+    width: 95%;
+    height: 1000px;
+    margin: 40px auto;
+    border-radius: 15px;
+    background-color: #CFCFCF;
+    box-shadow: 0 0 35px 5px rgba(0,0,0,0.8);
+}
+#conten{   
+    padding: 0px 0px 10px 0px;
+}
+.sp{
+    width: calc(25% - 14px);
+    height: 300px;
+    float: left;
+    text-align: center;
+    border: 1px solid rgb(61, 61, 61);
+    border-radius: 10px;
+    box-shadow: 0 0 3px 3px rgba(0,0,0,0.8);
+    margin: 10px 0px 10px 10px;
+    background-color: rgb(254, 255, 255);
+}
+.sp > img{
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+}
+.sp > h2 >a{
+    color: #111;
+    text-decoration: none;
+}
+.sp > h2 >a:hover{
+    color: rgb(121, 118, 118);
+    text-decoration: none;
+}
+.sp > samp{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.sp > samp > a{
+    color: rgb(241, 12, 12);
+    text-decoration: none;
+}
+.sp > samp > a:hover{
+    color: rgb(66, 50, 212);
+}
+#footer{
+    width: 95%;
+    height: 170px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #CFCFCF;
+    box-shadow: 0 0 10px 5px rgba(97, 97, 97, 0.8);
+}
+#footer .left{
+    width: 50%;
+    float: left;
+}
+#footer .right{
+    width: 50%;
+    float: left;
+}
+#footer .left > h5{
+    margin-left: 10px;
+}
+#footer .right > h5{
+    margin-left: 10px;
+}
