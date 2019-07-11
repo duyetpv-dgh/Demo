@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Đăng Ký</title>
+    <link rel="stylesheet" href="../css/dangky.css" /> 
+    <script type="text/javascript" src="../js/dangky.js" ></script>
+  
+</head>
+<body>
+    <div class="dangky">
+        <h1 style="text-align: center;">Đăng Ký</h1>
+        <form action="" method="POST">
+            <label>Tên:</label>
+            <input type="text" name="name" id="name" value=""><br/>
+            <label class="pan">&nbsp</label>
+            <span id=errorname></span><br/>
+            <label>Mật Khẩu:</label>
+            <input type="password" name="password" id="password" value=""><br/>
+            <label class="pan">&nbsp</label>
+            <span id=errorpassword></span><br/>
+            <label>Nhập lại mật khẩu:</label>
+            <input type="password" name="pass" id="pass" value=""><br/>
+            <label class="pan">&nbsp</label>
+            <span id=errorpass></span><br/>
+            <label>Điện thoại</label>
+            <input type="number" name="phone" id="phone" value=""><br/>
+            <label class="pan">&nbsp</label>
+            <span id=errorphone></span><br/>
+            <label>Email</label>
+            <input type="text" name="email" id="email" value=""><br/>
+            <label class="pan">&nbsp</label>
+            <span id=erroremail></span><br/>
+            <label>&nbsp</label>
+            <button onclick="register(); return false;">Đăng Ký</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Đăng Nhập</title>
+
+    <link rel="stylesheet" href="../css/dangnhap.css" />
+    <script type="text/javascript" src="../js/dangnhap.js" ></script>
+</head>
+<body>
+    <div class="dangnhap">
+        <h1 style="text-align: center;">Đăng Nhập</h1>
+        <form class="center" action="" method="POST">
+            <label>Tên:</label>
+            <input type="text" name="name" id="name" value=""><br/>
+            <label class="pan">&nbsp</label>
+            <span id=errorname></span><br/>
+            <label>Mật Khẩu:</label>
+            <input type="text" name="password" id="password" value=""><br/>
+            <label class="pan">&nbsp</label>
+            <span id=errorpassword></span><br/>
+            <label>&nbsp</label>
+            <div>
+                <button onclick="button(); return false;">Đăng Nhập</button>
+                <h6 class="quenmatkhau"><a href="#">Quên mật khẩu</a></h6>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
