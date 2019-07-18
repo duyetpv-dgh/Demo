@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .dangky{
+            width: 600px;
+            height: 500px;
+            border: 1px solid #000;
+        }
+        label{
+            width: 150px;
+            float: left;
+        }
+        input{
+            width: 250px;
+            margin-bottom: 5px;
+        }
+        span{
+            margin-left: 150px;
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div class="dangky">
+        <div style="width: 410px; margin: 50px auto">
+            <h2 style="text-align: center">Đăng Ký</h2>
+            <label>Tên Đăng Nhập:</label>
+            <input type="text" name="name" id="name" value=""><br>
+            <span id="errorname"></span>
+            <br>
+            <label>Email:</label>
+            <input type="text" name="email" id="email" value=""><br>
+            <span id="erroremail"></span>
+            <br>
+            <label>Mật khẩu:</label>
+            <input type="text" name="pass" id="pass" value=""><br>
+            <span id="errorpass"></span>
+            <br>
+            <label>Nhập Lại Mật Khẩu:</label>
+            <input type="text" name="password" id="password" value=""><br>
+            <span id="errorpassword"></span>
+            <br>
+            <label>&nbsp</label>
+            <button onclick="dangky(); return false;" style="width: 250px; height: 40px;">Đăng Ký</button>
+        </div>       
+</div>
+</body>
+</html>

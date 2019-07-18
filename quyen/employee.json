@@ -1,0 +1,21 @@
+[{
+    "name" : "Steve",
+    "age" :  "29",
+    "gender" : "male",
+    "designation": "dsds",
+    "address": "ddss"
+ },
+ {
+    "name" : "Peter",
+    "age" : "32",
+    "gender" : "male",
+    "designation": "dsds",
+    "address": "ddss"
+ },
+ {
+    "name" : "Sophie",
+    "age" : "27",
+    "gender" : "female",
+    "designation": "dsds",
+    "address": "ddss"
+ }]
